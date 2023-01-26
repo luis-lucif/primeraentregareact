@@ -1,0 +1,30 @@
+.header {
+    position: absolute;
+    width: 100%;
+  }
+
+
+.header-container{
+    display: flex;
+    gap: 20rem;
+    margin-top: 1rem;
+    
+} 
+
+
+
+li {
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+a{
+   color: black;
+    text-decoration: none;
+    margin: 50px;
+    text-transform: uppercase;
+    
+}
+

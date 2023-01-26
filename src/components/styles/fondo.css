@@ -1,0 +1,49 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-position: 67%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .hero-slide-1 {
+    background-image: url(https://img.freepik.com/foto-gratis/ilustracion-3d-smartphone-productos-saliendo-pantalla-concepto-comercio-electronico-compras-linea_58466-14529.jpg?w=740&t=st=1674616050~exp=1674616650~hmac=f1ea360f2cda9f63129e7c59592d8c33e0dd3a97b9bff1a3b16804f12b4b77e0);
+
+  }
+  
+  .hero-container {
+    display: grid;
+    grid-template: 1fr 2fr 1fr / 0.5fr 2fr 0.5fr;
+    height: 100%;
+  }
+  
+  .hero-container__text-box {
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .hero-container__text-box h1 {
+    font-size: 3.4rem;
+    font-weight: 700;
+  }
+  
+  .hero-container__text-box p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 30px auto;
+    max-width: 360px;
+  }
+  
+  .button-primary {
+    background-color: var(--pimary-color);
+    border: none;
+    font-family: var(--mulish-font);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px auto;
+    width: 112px;
+    height: 36px;
+    cursor: pointer;
+  }
